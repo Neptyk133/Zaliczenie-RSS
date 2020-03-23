@@ -1,0 +1,79 @@
+body{
+    background-color: darkred;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    display: block;
+    border-radius: 20px;
+    background-color: darkred;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+form{
+    border-radius: 30px;
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 60%;
+    background-color: darkred;
+}
+input{
+    border-radius: 30px;
+    padding: 5px;
+    margin: 10px;
+}
+input[type=submit]{
+    margin-left: 1%;
+    width: 20vw;
+}
+#save{
+    width: 20vw;
+}
+button{
+    border-radius: 20px;
+    margin: 4px;
+    padding: 5px;
+}
+#debug{
+    overflow: scroll;
+    background-color: lightcoral;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 5px;
+    float: left;
+    width: 50%;
+    height: 200px;
+    margin-right: 10px;
+}
+.sendlist{
+    background-color: lightcoral;
+    height: 200px;
+    width: 50%;
+    overflow: scroll;
+}
+
+input#email{
+    float: left;
+    width: 100%;
+    margin-left: 1%;
+}
+input#url{
+    /*margin-top: 2%;*/
+    margin-left: 1%;
+    width: 100%;
+}
+.row{
+    width: 100%;
+    margin-top: 20px;
+}
+.email-flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
